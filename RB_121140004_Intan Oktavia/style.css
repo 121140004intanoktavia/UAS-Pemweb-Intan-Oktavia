@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+.main {
+  margin: 0 8%;
+}
+
+nav {
+  background-color: #232323;
+}
+
+.sidebar-content {
+  margin: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.menu-content {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+
+.menu-items p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffbfbf;
+}
+
+.menu-items .item a,
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 8px 12px;
+}
+
+.btn-login a {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 142, 142);
+  border-radius: 2px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+
+form label {
+  width: 100%;
+}
+
+form input {
+  padding: 12px;
+  margin: 8px 0;
+  border: 0;
+  background-color: #ffbfbf;
+  border-radius: 4px;
+}
+
+.button-add {
+  padding: 12px 20px;
+  border: none;
+  background-color: rgb(12, 200, 47);
+  color: rgb(0, 0, 0);
+  margin: 12px 0;
+  border-radius: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-head {
+  font-weight: 700;
+}
+
+.table-body th {
+  color: #222222;
+  font-weight: 400;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: left;
+  font-size: 12px;
+  max-width: 40px;
+}
+
+th a {
+  text-decoration: none;
+  padding: 4px 8px;
+  color: white;
+}
+
+.read {
+  background-color: #6286f4;
+}
+
+.update {
+  background-color: green;
+}
+
+.delete {
+  background-color: crimson;
+}
